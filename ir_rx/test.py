@@ -27,7 +27,7 @@ elif platform == "esp8266":
 elif platform == "esp32" or platform == "esp32_LoBo":
     p = Pin(23, Pin.IN)
 elif platform == "rp2":
-    p = Pin(16, Pin.IN)
+    p = Pin(8, Pin.IN)
 
 # User callback
 def cb(data, addr, ctrl):
